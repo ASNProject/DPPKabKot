@@ -20,3 +20,8 @@ D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.Register.resources
 D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.TambahData.resources
 D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.Peringatan.resources
 D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.Biodata.resources
+D:\DPP KabKot\DPPKabKot\DPPKabKot\bin\Debug\DPPKabKot.exe.manifest
+D:\DPP KabKot\DPPKabKot\DPPKabKot\bin\Debug\DPPKabKot.application
+D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.Pilihan.resources
+D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.exe.manifest
+D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.application
