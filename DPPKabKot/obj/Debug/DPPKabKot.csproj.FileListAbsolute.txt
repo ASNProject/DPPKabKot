@@ -17,3 +17,6 @@ D:\DPP KabKot\DPPKabKot\DPPKabKot\bin\Debug\RestSharp.xml
 D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.csproj.CopyComplete
 D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.Dashboard.resources
 D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.Register.resources
+D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.TambahData.resources
+D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.Peringatan.resources
+D:\DPP KabKot\DPPKabKot\DPPKabKot\obj\Debug\DPPKabKot.Biodata.resources

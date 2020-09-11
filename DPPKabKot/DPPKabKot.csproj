@@ -46,6 +46,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -57,6 +58,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Biodata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Biodata.Designer.cs">
+      <DependentUpon>Biodata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM.cs" />
+    <Compile Include="Bundha.cs" />
+    <Compile Include="Buruh.cs" />
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,25 +75,124 @@
     </Compile>
     <Compile Include="Data.cs" />
     <Compile Include="data1.cs" />
+    <Compile Include="DataIsi.cs" />
+    <Compile Include="DataKelaminlaki.cs" />
+    <Compile Include="DataKelaminPerempuan.cs" />
+    <Compile Include="DataNama.cs" />
+    <Compile Include="Datas.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GenderCewek.cs" />
+    <Compile Include="GenderLaki.cs" />
+    <Compile Include="Hindu.cs" />
+    <Compile Include="InTambahData.cs" />
+    <Compile Include="InTambahDataDesa.cs" />
+    <Compile Include="IsiData.cs" />
+    <Compile Include="Islam.cs" />
+    <Compile Include="K.cs" />
+    <Compile Include="Katholik.cs" />
+    <Compile Include="Konghucu.cs" />
+    <Compile Include="Kristen.cs" />
+    <Compile Include="Laki.cs" />
+    <Compile Include="M.cs" />
+    <Compile Include="Nelayan.cs" />
+    <Compile Include="NoBM.cs" />
+    <Compile Include="NoBudha.cs" />
+    <Compile Include="NoBuruh.cs" />
+    <Compile Include="NoCewek.cs" />
+    <Compile Include="NoDesa.cs" />
+    <Compile Include="NoHindu.cs" />
+    <Compile Include="NoIsiData.cs" />
+    <Compile Include="NoIslam.cs" />
+    <Compile Include="NoK.cs" />
+    <Compile Include="NoKatholik.cs" />
+    <Compile Include="NoKecamatan.cs" />
+    <Compile Include="NoKonghucu.cs" />
+    <Compile Include="NoKristen.cs" />
+    <Compile Include="NoLaki.cs" />
+    <Compile Include="NoM.cs" />
+    <Compile Include="NoNama.cs" />
+    <Compile Include="NoNelayan.cs" />
+    <Compile Include="NoPedagang.cs" />
+    <Compile Include="NoPelajar.cs" />
+    <Compile Include="NoPensiunan.cs" />
+    <Compile Include="NoPetani.cs" />
+    <Compile Include="NoPM.cs" />
+    <Compile Include="NoPTP.cs" />
+    <Compile Include="NoS.cs" />
+    <Compile Include="NoS1.cs" />
+    <Compile Include="NoS2.cs" />
+    <Compile Include="NoS3.cs" />
+    <Compile Include="NoSD.cs" />
+    <Compile Include="NoSM.cs" />
+    <Compile Include="NoSMA.cs" />
+    <Compile Include="NoSMP.cs" />
+    <Compile Include="NoSwasta.cs" />
+    <Compile Include="NoTidakkerja.cs" />
+    <Compile Include="NoTidaksekolah.cs" />
+    <Compile Include="NoTK.cs" />
+    <Compile Include="NoWiraswasta.cs" />
+    <Compile Include="Pedagang.cs" />
+    <Compile Include="Pelajar.cs" />
+    <Compile Include="Pensiunan.cs" />
+    <Compile Include="Perempuan.cs" />
+    <Compile Include="Peringatan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Peringatan.Designer.cs">
+      <DependentUpon>Peringatan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Petani.cs" />
+    <Compile Include="Pilihank.cs" />
+    <Compile Include="Pilihanm.cs" />
+    <Compile Include="Pilihans.cs" />
+    <Compile Include="PilK.cs" />
+    <Compile Include="PilM.cs" />
+    <Compile Include="PilS.cs" />
+    <Compile Include="PM.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PTP.cs" />
     <Compile Include="Register.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Register.Designer.cs">
       <DependentUpon>Register.cs</DependentUpon>
     </Compile>
+    <Compile Include="S.cs" />
+    <Compile Include="S1.cs" />
+    <Compile Include="S2.cs" />
+    <Compile Include="S3.cs" />
+    <Compile Include="SD.cs" />
+    <Compile Include="SM.cs" />
+    <Compile Include="SMA.cs" />
+    <Compile Include="SMP.cs" />
+    <Compile Include="Swasta.cs" />
+    <Compile Include="TambahData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TambahData.Designer.cs">
+      <DependentUpon>TambahData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tidakkerja.cs" />
+    <Compile Include="Tidaksekolah.cs" />
+    <Compile Include="TK.cs" />
+    <Compile Include="Wiraswasta.cs" />
+    <EmbeddedResource Include="Biodata.resx">
+      <DependentUpon>Biodata.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Peringatan.resx">
+      <DependentUpon>Peringatan.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -97,6 +206,9 @@
     </Compile>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TambahData.resx">
+      <DependentUpon>TambahData.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

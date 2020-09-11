@@ -34,8 +34,6 @@ namespace DPPKabKot
         {
             client = new FireSharp.FirebaseClient(config);
 
-     
-
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -46,7 +44,7 @@ namespace DPPKabKot
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            FirebaseResponse response = await client.GetTaskAsync("Data User/" + textBox1.Text);
+            FirebaseResponse response = await client.GetTaskAsync("Data User/" + textBox1.Text + "/Akun/");
 
             data Obj = response.ResultAs<data>();
             
